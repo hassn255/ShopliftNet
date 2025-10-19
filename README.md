@@ -67,11 +67,11 @@ Shoplifting |0.93 |0.96 |0.95|
 
 ## Key Insights
 
-- Data leakage can drastically inflate performance metrics.  
+- Data leakage can inflate performance metrics.
 - Cleaning the dataset via **feature-based similarity** is a crucial step in video ML pipelines.  
 - The **R(2+1)D** architecture provides a strong balance between temporal modeling and computational efficiency.
 
 ## Conclusion
 
-Complex models are more prone to the effects of **data leakage**, since their higher capacity allows them to memorize patterns rather than generalize.  
-After cleaning the dataset, performance normalized, rein
+Complex models such as **ResNet50 + GRU** are more prone to the effects of **data leakage**, since their higher capacity allows them to memorize patterns rather than generalize.  
+After cleaning the dataset, performance normalized, reinforcing the importance of **robust data handling** before model evaluation.
