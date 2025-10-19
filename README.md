@@ -73,5 +73,5 @@ Shoplifting |0.93 |0.96 |0.95|
 
 ## Conclusion
 
-Complex models such as **ResNet50 + GRU** are more prone to the effects of **data leakage**, since their higher capacity allows them to memorize patterns rather than generalize.  
+Complex models are more prone to the effects of **data leakage**, since their higher capacity allows them to memorize patterns rather than generalize.  
 After cleaning the dataset, performance normalized, reinforcing the importance of **robust data handling** before model evaluation.
